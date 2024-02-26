@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="music.png" alt="Spotify">Spotify</li>
+            <li><a href="#"> Home</a></li>
+            <li><a href="about.html"> About</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="songlist">
+            <h1> Best of Ncs - No Copyright Sounds</h1>
+
+            <div class="songItemContainer"></div>
+            <div>
+                <div class="songItem">
+                    <img src alt="1">
+                    <span class="songName">Naseeb Se</span>
+                    <span class="songlistplay"><span class="timestamp"></span><span class="T">05:34</span><i id = "0"
+                            class="fa-solid  songItemPlay a-circle-play fa-l"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src alt="1">
+                    <span class="songName">Breaking The Rules</span>
+                    <span class="songlistplay"><span class="timestamp"></span>05:34<i id = "1"
+                            class="fa-solid  songItemPlay fa-circle-play fa-l"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src alt="1">
+                    <span class="songName">Phir Aur kya Chahiye</span>
+                    <span class="songlistplay"><span class="timestamp"></span>05:34<i id = "2"
+                            class="fa-solid  songItemPlay fa-circle-play fa-l"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src alt="1">
+                    <span class="songName">King Of Indian Hip Hop</span>
+                    <span class="songlistplay"><span class="timestamp"></span>05:34<i id = "3"
+                            class="fa-solid  songItemPlay fa-circle-play fa-l"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src alt="1">
+                    <span class="songName">Krishna tere Ho Gyi Jaani</span>
+                    <span class="songlistplay"><span class="timestamp"></span><span class="T">05:34</span><i id = "4"
+                            class="fa-solid  songItemPlay fa-circle-play fa-l"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src alt="1">
+                    <span class="songName">Kya Loge Tum Jaani</span>
+                    <span class="songlistplay"><span class="timestamp"></span><span class="T">05:34</span><i id = "5"
+                            class="fa-solid  songItemPlay fa-circle-play fa-l"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src alt="1">
+                    <span class="songName">Pyar Ho Gya Jaani Dilshad</span>
+                    <span class="songlistplay"><span class="timestamp"></span>05:34<i id = "6"
+                            class="fa-solid  songItemPlay fa-circle-play fa-l"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src alt="1">
+                    <span class="songName">Tere Vaaste Zara</span>
+                    <span class="songlistplay"><span class="timestamp"></span>05:34<i id = "7"
+                            class="fa-solid  songItemPlay fa-circle-play fa-l"></i></span></span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="songBanner"></div>
+    </div>
+    <div class="Bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fa-solid fa-backward fa-2xl"id= "previous"></i>
+            <i class="fa-solid fa-circle-play fa-2xl" id="masterplay"></i>
+            <i class="fa-solid fa-forward fa-2xl" id = "next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id= "masterSongName">"Naseeb Se"</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d2e973a19a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Roboto:wght@500&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+body {
+    overflow: hidden;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'varela' sans-serif;
+}
+nav ul{
+    display: flex; 
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: white;
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 30px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;   
+}
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 5px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 10px;
+    background-image: url('bg\ \(2\).jpg');
+
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: white;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+       
+}
+.icons{
+    margin-top: 15px;
+    margin-left: 700px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    margin-left: 110px;
+    cursor: pointer;
+    
+}
+/* .songItemContainer{ 
+    margin-top: 74px;
+} */
+.songItem {
+    height: 25px;
+    display: flex;
+    background-color: white;
+    width: 60%;
+    color: black;
+    margin: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    
+    
+}
+.songInfo{
+    padding: 0%;
+    margin: 20px;
+}
+
+.songItem img {
+    width: 25px;
+    margin: 0 10px;
+    border-radius: 50px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: relative;
+    left: 10vw;
+    margin-top: 10px;
+    
+}
+.songInfo img {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+    margin-bottom: 200px;
+}
+
+
+
+
